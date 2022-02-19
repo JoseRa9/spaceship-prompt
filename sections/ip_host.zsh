@@ -35,6 +35,6 @@ spaceship_ip_host() {
 
     spaceship::section \
       "$host_color" \
-      "$showIP" \
+      "$showIP"
   fi
 }
