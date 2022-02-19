@@ -40,6 +40,7 @@ if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
     user          # Username section
     dir           # Current directory section
     host          # Hostname section
+    ip_host       # IP address section
     git           # Git section (git_branch + git_status)
     hg            # Mercurial section (hg_branch  + hg_status)
     package       # Package version

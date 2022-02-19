@@ -65,8 +65,8 @@ Now that the requirements are satisfied, you can install Spaceship via any of th
 
     Clone this repo:
 
-    ```zsh title="Terminal"
-    git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+    ```zsh
+    git clone https://github.com/JoseRa9/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
     ```
 
     Symlink `spaceship.zsh-theme` to your oh-my-zsh custom themes directory:
