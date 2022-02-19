@@ -31,7 +31,7 @@ spaceship_ip_host() {
     fi
 
     ipAddr=$(hostname -I | awk '{print $1}')
-    showIP='(${ipAddr})'
+    showIP="(${ipAddr}) "
 
     spaceship::section \
       "$host_color" \
