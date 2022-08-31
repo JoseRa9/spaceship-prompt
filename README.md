@@ -125,7 +125,7 @@ echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 Clone this repo:
 
 ```zsh
-git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+git clone https://github.com/JoseRa9/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ```
 
 Symlink `spaceship.zsh-theme` to your oh-my-zsh custom themes directory:
