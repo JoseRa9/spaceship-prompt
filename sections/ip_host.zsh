@@ -32,9 +32,12 @@ spaceship_ip_host() {
 
     ipAddr=$(hostname -I | awk '{print $1}')
     showIP="(${ipAddr}) "
-
-    spaceship::section \
-      "$host_color" \
-      "$showIP"
   fi
+
+
+  spaceship::section \
+    --color "$SPACESHIP_HOST_COLOR" \
+    --prefix "$SPACESHIP_HOST_PREFIX" \
+    --suffix "$SPACESHIP_HOST_SUFFIX" \
+    "$showIP"
 }
