@@ -7,7 +7,7 @@
 
 # Current version of Spaceship
 # Useful for issue reporting
-export SPACESHIP_VERSION='4.5.0'
+export SPACESHIP_VERSION='4.6.1'
 
 # Determination of Spaceship working directory
 # https://git.io/vdBH7
@@ -58,6 +58,8 @@ if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
     rust          # Rust section
     haskell       # Haskell Stack section
     java          # Java section
+    lua           # Lua section
+    dart          # Dart section
     julia         # Julia section
     crystal       # Crystal section
     docker        # Docker section
@@ -120,7 +122,7 @@ for lib in "${SPACESHIP_LIBS[@]}"; do
 done
 
 # Load and precompile this file
-spaceship::precompile "$0"
+spaceship::precompile "$SPACESHIP_ROOT/$0"
 
 # ------------------------------------------------------------------------------
 # BACKWARD COMPATIBILITY WARNINGS

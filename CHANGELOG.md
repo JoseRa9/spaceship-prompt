@@ -1,3 +1,34 @@
+## [4.6.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.6.0...v4.6.1) (2022-10-14)
+
+
+### Bug Fixes
+
+* **java:** fix version retrieval when JAVA_TOOL_OPTIONS exist in environment ([#1191](https://github.com/spaceship-prompt/spaceship-prompt/issues/1191)) ([2c3b7df](https://github.com/spaceship-prompt/spaceship-prompt/commit/2c3b7df301fb3e54cc885dbaf9cd987934b7a276))
+* **node:** Add better detection for node context ([#1263](https://github.com/spaceship-prompt/spaceship-prompt/issues/1263)) ([7443d04](https://github.com/spaceship-prompt/spaceship-prompt/commit/7443d046c1f3002b47b242518b322dba4a64d528))
+
+# [4.6.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.5.1...v4.6.0) (2022-10-07)
+
+
+### Bug Fixes
+
+* locale dependent test ([#1253](https://github.com/spaceship-prompt/spaceship-prompt/issues/1253)) ([7477dfb](https://github.com/spaceship-prompt/spaceship-prompt/commit/7477dfb601b7fa41975406c53a4e3969899f0471))
+* problem async section not updating ([b72b54a](https://github.com/spaceship-prompt/spaceship-prompt/commit/b72b54ac2ab2babb829ab5d39565961a8591379e))
+
+
+### Features
+
+* add Dart section ([#1249](https://github.com/spaceship-prompt/spaceship-prompt/issues/1249)) ([f403f2f](https://github.com/spaceship-prompt/spaceship-prompt/commit/f403f2f3f499ee5abb8d8d6b1dac30c5bd8412f1))
+* add Lua section ([#1254](https://github.com/spaceship-prompt/spaceship-prompt/issues/1254)) ([7a3a2e9](https://github.com/spaceship-prompt/spaceship-prompt/commit/7a3a2e94657c90c66c20f7d1627625e851ae9ad6))
+
+## [4.5.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.5.0...v4.5.1) (2022-09-30)
+
+
+### Bug Fixes
+
+* **kubectl:** Avoids checking kubectl server version if no context is loaded, stopping potential hangs ([#1246](https://github.com/spaceship-prompt/spaceship-prompt/issues/1246)) ([44819b0](https://github.com/spaceship-prompt/spaceship-prompt/commit/44819b09c3017d0fb42bc22bdcbd05f847b2d915))
+* prepend spaceship root folder to spaceship precompile path ([#1244](https://github.com/spaceship-prompt/spaceship-prompt/issues/1244)) ([6c4623f](https://github.com/spaceship-prompt/spaceship-prompt/commit/6c4623fe9f31ac7b16fb7ebeffaa23b123220ef9))
+* upsearch was exiting when the first file is not found ([#1239](https://github.com/spaceship-prompt/spaceship-prompt/issues/1239)) ([dcfd690](https://github.com/spaceship-prompt/spaceship-prompt/commit/dcfd690f7b7607d05d160b084eb193460e9edf81))
+
 # [4.5.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.4.0...v4.5.0) (2022-09-23)
 
 
